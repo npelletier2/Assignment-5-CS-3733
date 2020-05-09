@@ -71,7 +71,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="JUnit.All in test (3)">
+  <component name="RunManager" selected="JUnit.All in test (4)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -262,7 +262,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in test (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -271,11 +271,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CipherTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CipherTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -363,11 +362,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in test (4)" />
         <item itemvalue="JUnit.All in test (3)" />
         <item itemvalue="JUnit.All in test (2)" />
         <item itemvalue="JUnit.All in test (1)" />
         <item itemvalue="JUnit.All in test" />
-        <item itemvalue="JUnit.CipherTests" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +421,6 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="666" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589051810728" />
-<<<<<<< HEAD
     <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1589058607083">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -443,24 +441,6 @@
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1589058607083" />
     <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589056789038" />
-=======
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1589056817593">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589056817593" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1589056817593">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589056817593" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1589056817593">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589056817593" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1589056817593">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589056817593" />
->>>>>>> ed6135c3e4e4638ed7035996f18835a3adbb46a9
     <state x="440" y="99" key="SettingsEditor" timestamp="1589051825209">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
