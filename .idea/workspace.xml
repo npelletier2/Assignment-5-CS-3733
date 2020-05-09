@@ -71,7 +71,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="JUnit.All in test (4)">
+  <component name="RunManager" selected="JUnit.All in test (5)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -271,7 +271,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in test (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -362,11 +362,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in test (5)" />
         <item itemvalue="JUnit.All in test (4)" />
         <item itemvalue="JUnit.All in test (3)" />
         <item itemvalue="JUnit.All in test (2)" />
         <item itemvalue="JUnit.All in test (1)" />
-        <item itemvalue="JUnit.All in test" />
       </list>
     </recent_temporary>
   </component>
