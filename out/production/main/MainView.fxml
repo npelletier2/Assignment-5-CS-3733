@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wpi.cs3733.CipherController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wpi.cs3733.CipherController">
    <BorderPane prefHeight="75.0" prefWidth="200.0">
       <center>
          <Label text="Text Encoder" BorderPane.alignment="CENTER">
@@ -21,7 +21,7 @@
          </Label>
       </center>
    </BorderPane>
-   <BorderPane prefHeight="75.0" prefWidth="200.0">
+   <BorderPane prefHeight="99.0" prefWidth="499.0">
       <top>
          <Label text="Enter Text:" BorderPane.alignment="CENTER" />
       </top>
@@ -39,7 +39,7 @@
             <Label text="Caesar Cipher" BorderPane.alignment="CENTER" />
          </top>
          <center>
-            <TextArea fx:id="caesarTextOut" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.0" prefWidth="175.0" wrapText="true" BorderPane.alignment="CENTER">
+            <TextArea fx:id="caesarTextOut" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.0" prefWidth="282.0" wrapText="true" BorderPane.alignment="CENTER">
                <cursor>
                   <Cursor fx:constant="DEFAULT" />
                </cursor>
@@ -51,19 +51,7 @@
             <Label text="Elbonian Cipher" BorderPane.alignment="CENTER" />
          </top>
          <center>
-            <TextArea fx:id="elbonianTextOut" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.0" prefWidth="175.0" wrapText="true" BorderPane.alignment="CENTER">
-               <cursor>
-                  <Cursor fx:constant="DEFAULT" />
-               </cursor>
-            </TextArea>
-         </center>
-      </BorderPane>
-      <BorderPane prefHeight="200.0" prefWidth="200.0">
-         <top>
-            <Label text="String.hashCode()" BorderPane.alignment="CENTER" />
-         </top>
-         <center>
-            <TextArea fx:id="hashTextOut" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.0" prefWidth="175.0" wrapText="true" BorderPane.alignment="CENTER">
+            <TextArea fx:id="elbonianTextOut" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.0" prefWidth="292.0" wrapText="true" BorderPane.alignment="CENTER">
                <cursor>
                   <Cursor fx:constant="DEFAULT" />
                </cursor>
