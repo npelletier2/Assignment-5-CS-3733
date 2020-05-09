@@ -7,9 +7,7 @@ public class Message implements Observable {
 	private String text;
 
 	public void setText(String text){
-		int max = 140;
-		if(text.length() < max) max = text.length();
-		this.text = text.substring(0, max);
+		this.text = text;
 	}
 
 	public String getText(){

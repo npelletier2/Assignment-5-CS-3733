@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a594c2e-5ce1-44e8-adf7-97bce5edb525" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/MainView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/CaesarCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/CaesarCipher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/CipherTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/test/CipherTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/CaesarCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CipherTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CipherTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+            <option name="selectedSavedDocumentIndex" value="0" />
+          </AnonymousApexSettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1bgQy0p1SJLSq6oW4f91a6jqUUQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,6 +50,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -42,7 +65,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in test">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -206,6 +229,25 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
+    <configuration name="All in test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CipherTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -286,6 +328,12 @@
       <recursive>false</recursive>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in test" />
+        <item itemvalue="JUnit.CipherTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -309,7 +357,7 @@
       <workItem from="1548995112765" duration="24000" />
       <workItem from="1588625250825" duration="291000" />
       <workItem from="1589051509488" duration="7000" />
-      <workItem from="1589051767511" duration="256000" />
+      <workItem from="1589051767511" duration="3307000" />
     </task>
     <servers />
   </component>
@@ -317,30 +365,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="557" y="156" key="#All_in_test" timestamp="1589054976125">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="557" y="156" key="#All_in_test/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589054976125" />
+    <state x="557" y="192" key="#CipherTests" timestamp="1589054781869">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="557" y="192" key="#CipherTests/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589054781869" />
+    <state x="552" y="183" width="816" height="729" key="#Intentions" timestamp="1589054910123">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" width="816" height="729" key="#Intentions/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589054910123" />
     <state x="666" y="266" key="FileChooserDialogImpl" timestamp="1589051810728">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="666" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589051810728" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1589051922670">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1589055084901">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589051922670" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1589051922669">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589055084901" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1589055084901">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589051922669" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1589051922669">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589055084901" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1589055084901">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589051922669" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1589051922669">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589055084901" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1589055084901">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589051922669" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589055084901" />
     <state x="440" y="99" key="SettingsEditor" timestamp="1589051825209">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589051825209" />
+    <state x="664" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589054026224">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="664" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589054026224" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
