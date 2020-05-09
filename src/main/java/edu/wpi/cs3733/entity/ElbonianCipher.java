@@ -51,6 +51,6 @@ public class ElbonianCipher implements Observer {
 
 	@Override
 	public void notify(Object object){
-
+		this.setText((String)object);
 	}
 }

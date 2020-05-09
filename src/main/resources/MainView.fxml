@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wpi.cs3733.CipherController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wpi.cs3733.CipherController">
    <BorderPane prefHeight="75.0" prefWidth="200.0">
       <center>
          <Label text="Text Encoder" BorderPane.alignment="CENTER">
@@ -26,7 +26,7 @@
          <Label text="Enter Text:" BorderPane.alignment="CENTER" />
       </top>
       <center>
-         <TextField fx:id="textInputBox" maxWidth="-Infinity" minWidth="-Infinity" onInputMethodTextChanged="#onTextUpdate" onKeyTyped="#onTextUpdate" prefWidth="400.0" BorderPane.alignment="CENTER" />
+         <TextField fx:id="textInputBox" maxWidth="-Infinity" minWidth="-Infinity" onInputMethodTextChanged="#onTextUpdate" onKeyReleased="#onTextUpdate" prefWidth="400.0" BorderPane.alignment="CENTER" />
       </center>
       <bottom>
          <Button mnemonicParsing="false" onAction="#updateOutput" text="Encode!" BorderPane.alignment="CENTER" />
