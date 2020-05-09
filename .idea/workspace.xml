@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5a594c2e-5ce1-44e8-adf7-97bce5edb525" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/CaesarCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/CaesarCipher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/ElbonianCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/ElbonianCipher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/test/CipherTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/test/CipherTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/CaesarCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/ElbonianCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/ElbonianCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CipherTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CipherTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,7 +354,7 @@
       <workItem from="1548995112765" duration="24000" />
       <workItem from="1588625250825" duration="291000" />
       <workItem from="1589051509488" duration="7000" />
-      <workItem from="1589051767511" duration="3307000" />
+      <workItem from="1589051767511" duration="5014000" />
     </task>
     <servers />
   </component>
@@ -377,26 +374,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" width="816" height="729" key="#Intentions/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589054910123" />
+    <state x="92" y="92" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589056023147">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589056023147" />
     <state x="666" y="266" key="FileChooserDialogImpl" timestamp="1589051810728">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="666" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589051810728" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1589055084901">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1589056789039">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589055084901" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1589055084901">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589056789039" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1589056789038">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589055084901" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1589055084901">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589056789038" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1589056789038">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589055084901" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1589055084901">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589056789038" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1589056789038">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589055084901" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1589056789038" />
     <state x="440" y="99" key="SettingsEditor" timestamp="1589051825209">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
